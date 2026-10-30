@@ -1,0 +1,235 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* auth_brute_force
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 18:48+0000\n"
+"PO-Revision-Date: 2026-10-29 18:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,help:auth_brute_force.field_res_authentication_ban__count
+msgid "1 for the first ban of this remote/login, 2 for the next, etc."
+msgstr ""
+"1 para el primer bloqueo de esta IP/usuario, 2 para el siguiente, etc."
+
+#. module: auth_brute_force
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_ban__state__active
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_ban_search
+msgid "Active"
+msgstr "Activo"
+
+#. module: auth_brute_force
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_form
+msgid "Add remote to whitelist"
+msgstr "Añadir IP remota a la lista blanca"
+
+#. module: auth_brute_force
+#: model:ir.model,name:auth_brute_force.model_res_authentication_attempt
+msgid "Authentication Attempt"
+msgstr "Intento de autenticación"
+
+#. module: auth_brute_force
+#: model:ir.actions.act_window,name:auth_brute_force.action_res_authentication_attempt
+#: model:ir.ui.menu,name:auth_brute_force.menu_res_authentication_attempt
+msgid "Authentication Attempts"
+msgstr "Intentos de autenticación"
+
+#. module: auth_brute_force
+#: model:ir.model,name:auth_brute_force.model_res_authentication_ban
+msgid "Authentication Ban"
+msgstr "Bloqueo de autenticación"
+
+#. module: auth_brute_force
+#: model:ir.actions.act_window,name:auth_brute_force.action_res_authentication_ban
+#: model:ir.ui.menu,name:auth_brute_force.menu_res_authentication_ban
+msgid "Authentication Bans"
+msgstr "Bloqueos de autenticación"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__result
+msgid "Authentication Result"
+msgstr "Resultado de la autenticación"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__count
+msgid "Ban Number"
+msgstr "Número de bloqueo"
+
+#. module: auth_brute_force
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_attempt__result__banned
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_search
+msgid "Banned"
+msgstr "Bloqueado"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__login
+msgid "Banned Login"
+msgstr "Usuario bloqueado"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__date_start
+msgid "Banned Since"
+msgstr "Bloqueado desde"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__date_end
+msgid "Banned Until"
+msgstr "Bloqueado hasta"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__create_uid
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__create_date
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__display_name
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__duration
+msgid "Duration (minutes)"
+msgstr "Duración (minutos)"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,help:auth_brute_force.field_res_authentication_ban__login
+msgid "Empty means that every login from the remote IP is banned."
+msgstr "Vacío significa que se bloquean todos los usuarios de esa IP."
+
+#. module: auth_brute_force
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_ban__state__expired
+msgid "Expired"
+msgstr "Caducado"
+
+#. module: auth_brute_force
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_attempt__result__failed
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_search
+msgid "Failed"
+msgstr "Fallido"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,help:auth_brute_force.field_res_authentication_ban__last_attempt_id
+msgid "Failures recorded up to this attempt do not count for new bans."
+msgstr ""
+"Los fallos registrados hasta este intento no cuentan para nuevos bloqueos."
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__id
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__id
+msgid "ID"
+msgstr "ID"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__last_attempt_id
+msgid "Last Attempt"
+msgstr "Último intento"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__write_uid
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__write_date
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,help:auth_brute_force.field_res_authentication_ban__unbanned
+msgid "Manually lifted by an administrator."
+msgstr "Levantado manualmente por un administrador."
+
+#. module: auth_brute_force
+#: model:ir.model.fields,help:auth_brute_force.field_res_authentication_attempt__remote_metadata
+msgid "Metadata publicly available for remote IP"
+msgstr "Metadatos públicos disponibles para la IP remota"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__remote
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__remote
+msgid "Remote IP"
+msgstr "ID remoto"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__remote_metadata
+msgid "Remote IP metadata"
+msgstr "Metadatos de la IP remota"
+
+#. module: auth_brute_force
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_form
+msgid "Remove remote from whitelist"
+msgstr "Quitar IP remota de la lista blanca"
+
+#. module: auth_brute_force
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_form
+msgid "Set to unbanned"
+msgstr "Marcar como desbloqueado"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__state
+msgid "State"
+msgstr "Estado"
+
+#. module: auth_brute_force
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_attempt__result__successful
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_search
+msgid "Successful"
+msgstr "Existoso"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__login
+msgid "Tried Login"
+msgstr "Usuario probado"
+
+#. module: auth_brute_force
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_ban_form
+msgid "Unban"
+msgstr "Desbloquear"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_ban__unbanned
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_attempt__result__unbanned
+#: model:ir.model.fields.selection,name:auth_brute_force.selection__res_authentication_ban__state__unbanned
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_search
+msgid "Unbanned"
+msgstr "Desbloqueado"
+
+#. module: auth_brute_force
+#: model:ir.model,name:auth_brute_force.model_res_users
+msgid "User"
+msgstr "Usuario"
+
+#. module: auth_brute_force
+#: model:ir.model.fields,field_description:auth_brute_force.field_res_authentication_attempt__whitelisted
+msgid "Whitelisted"
+msgstr "En lista blanca"
+
+#. module: auth_brute_force
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_ban_search
+msgid "Whole remote"
+msgstr "IP completa"
+
+#. module: auth_brute_force
+#: model_terms:ir.ui.view,arch_db:auth_brute_force.view_res_authentication_attempt_search
+msgid "Without Success"
+msgstr "Sin éxito"
